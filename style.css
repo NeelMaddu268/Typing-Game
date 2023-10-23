@@ -1,0 +1,197 @@
+body{
+    background-color: grey;
+}
+
+h1,h2,h3,p{
+    text-align:center;
+}
+
+.title{
+    font-size:70px;
+    color:green;
+    font-weight:bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.instructions{
+    font-size:30px;
+    color:turquoise;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.gameOverTitle{
+    font-size:80px;
+    color:green;
+    font-weight:bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.gameOverDifficulty{
+    font-size:50px;
+    color:turquoise;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.gameOverScore{
+    font-size:50px;
+    color:turquoise;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.restartButton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    border-radius: 0.5em;
+    border: 0.1em solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+    display: inline-block;
+    vertical-align: top;
+
+    background-color: lightgreen;
+}
+
+.restartButton:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.wordPiece{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 0.5em rgb(255, 85, 0);
+}
+
+.correct{
+    color:blue;
+}
+
+.incorrect{
+    color: red;
+}
+
+.wordPieces{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    border-radius: 0.5em;
+    border: 0.1em solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+    display: inline-block;
+    vertical-align: top;
+
+    background-color: cyan;
+}
+
+.timer{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    border-radius: 0.5em;
+    border: 0.1em solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+    display: inline-block;
+    vertical-align: top;
+
+    background-color: cyan;
+}
+
+.score{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    border-radius: 0.5em;
+    border: 0.1em solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+    display: inline-block;
+    vertical-align: top;
+
+    background-color: cyan;
+}
+
+.difficulty{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    border-radius: 0.5em;
+    border: 0.1em solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+    display: inline-block;
+    vertical-align: top;
+
+    background-color: yellow;
+}
+
+.startButton{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    border-radius: 0.5em;
+    border: 0.1em solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+    display: inline-block;
+    vertical-align: top;
+
+    background-color: lightgreen;
+}
+
+.startButton:disabled{
+    background-color: lightgrey;
+}
+
+.startButton:enabled{
+    background-color: lightgreen;
+}
+
+.startButton:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.difficulty:hover{
+    background-color: cyan;
+}
+
+.difficulty:active{
+    background-color: cyan;
+}
+
+.difficulty:focus{
+    background-color: cyan;
+}
+
+.difficulty:focus:hover{
+    background-color: cyan;
+}
+
+.difficulty:focus:active{
+    background-color: cyan;
+}
